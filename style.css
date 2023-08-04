@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dcd8c0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+}
+
+.child {
+  padding: 20px;
+  margin: 5px;
+}
+
+.bottom {
+  padding: 20px;
+  display: flex;
+}
+
+.presentation-scene {
+  width: 300px;
+  height: 300px;
+}
+
+.presentation-card {
+  max-width: 400px;
+  /* Adjust the width as per your requirement */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling for the first component (profile-info) */
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-info img {
+  width: 80px;
+  /* Adjust the size of the profile picture as needed */
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Styling for the info-text in the first component */
+.info-text h2 {
+  margin: 0;
+}
+
+/* Styling for the third component (technologies) */
+.technologies ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.technologies li {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+/* Styling for the project card container */
+.project-card {
+  max-width: 400px;
+  /* Adjust the width as per your requirement */
+  margin: 20px;
+  background-color: rgba(77, 73, 62, .35);
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+}
+
+/* Styling for the project banner */
+.project-banner {
+  position: relative;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+
+.project-banner img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Zoom effect on hover */
+.project-banner:hover img {
+  transform: scale(1.2);
+  cursor: zoom-out;
+}
+
+/* Styling for the project details */
+.project-details {
+  padding: 20px;
+}
+
+.project-details h3 {
+  margin: 0;
+}
+
+/* Styling for the Learn More button */
+.learn-more-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #008080;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.learn-more-btn:hover {
+  background-color: #0abab5
+}
